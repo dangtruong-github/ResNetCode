@@ -62,6 +62,8 @@ plt.title("Training Accuracy")
 plt.xlabel("Epoch")
 plt.ylabel("Accuracy")
 
+plt.savefig("train_loss_and_acc_curve.png")
+
 plt.show()
 
 # Evaluation
